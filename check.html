@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h3>Your Screen:</h3>
+  <script>
+  var txt;
+  txt = screen.width;
+  var txt1;
+  txt1 =screen.height;
+  /*txt += "<p>Available width/height: " + screen.availWidth + "*" + screen.availHeight + "</p>";
+  txt += "<p>Color depth: " + screen.colorDepth + "</p>";
+  txt += "<p>Color resolution: " + screen.pixelDepth + "</p>";*/
+  if(txt>720)
+  {
+    window.location="index.php";
+  }
+  else {
+    window.location="blog.php";
+  }
+</script>
+
+</body>
+</html>
